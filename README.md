@@ -1,8 +1,8 @@
 # calculator project
 
-simple calculator application
+simple calculator application with dark mode feature 
 
-preview="calculator-inno.netlify.app"
+[online demo](https://calc-proj.netlify.app/)
 
  - To store the information of the operand and all the other methods ,i decided to create a calculator class.
 
@@ -27,3 +27,6 @@ preview="calculator-inno.netlify.app"
       - we use maximumFractionDigits so there can never be any decimal places after this value when it gets converted to a string with a bunch of commas
 
 
+![image](https://github.com/GhadiElias21/calculator-proj/assets/92365477/8006d855-7d1d-44db-be4d-f2fcd6f2eb88)
+
+![image](https://github.com/GhadiElias21/calculator-proj/assets/92365477/e6d2a419-e365-4342-ae17-e13bee758e5c)
