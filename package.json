@@ -1,0 +1,34 @@
+{
+  "husky": {
+    "hooks": {
+      "pre-push": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "eslint",
+      "git add"
+    ]
+  },
+  "name": "calc",
+  "description": "simple calculator application",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhadiElias21/calculator-porj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GhadiElias21/calculator-porj/issues"
+  },
+  "homepage": "https://github.com/GhadiElias21/calculator-porj#readme"
+}
